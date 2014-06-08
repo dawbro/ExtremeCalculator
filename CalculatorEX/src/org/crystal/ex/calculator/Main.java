@@ -9,7 +9,11 @@ package org.crystal.ex.calculator;
 public class Main {
 	Gui g = new Gui();
 	public static void main(String[] args){
-		
+		new Main();
 	}
 
+	public Main(){
+		g.main();
+	}
+	
 }
